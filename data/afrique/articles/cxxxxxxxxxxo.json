@@ -1,0 +1,600 @@
+{
+  "metadata": {
+    "id": "urn:bbc:ares::article:cz216x22106o",
+    "locators": {
+      "optimoUrn": "urn:bbc:optimo:asset:cz216x22106o"
+    },
+    "type": "article",
+    "createdBy": "Afrique",
+    "language": "fr",
+    "lastUpdated": 1570198604847,
+    "firstPublished": 1562936294950,
+    "lastPublished": 1569595708548,
+    "options": {},
+    "analyticsLabels": {},
+    "passport": {
+      "language": "fr",
+      "home": "http://www.bbc.co.uk/ontologies/passport/home/Afrique"
+    },
+    "tags": {},
+    "version": "v1.1.2",
+    "blockTypes": [
+      "headline",
+      "text",
+      "paragraph",
+      "fragment",
+      "image",
+      "caption",
+      "altText",
+      "rawImage",
+      "urlLink",
+      "video",
+      "subheadline",
+      "include"
+    ]
+  },
+  "content": {
+    "model": {
+      "blocks": [
+        {
+          "type": "headline",
+          "model": {
+            "blocks": [
+              {
+                "type": "text",
+                "model": {
+                  "blocks": [
+                    {
+                      "type": "paragraph",
+                      "model": {
+                        "text": "C'est le titre de cet article de test",
+                        "blocks": [
+                          {
+                            "type": "fragment",
+                            "model": {
+                              "text": "C'est le titre de cet article de test",
+                              "attributes": []
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "include",
+          "model": {
+            "type": "vj",
+            "href": "/news/special/idt/data_pic.inc?id=xmastravelroads_birmingham",
+            "html": "<div id=\"bbc-news-vj-iframe-content-placeholder\"></div>\n<link type=\"text/css\" rel=\"stylesheet\" href=\"//static.bbci.co.uk/indepthtoolkit/15.3.0.361/css/datapic/ns_data_pic_stat_domestic.css\" />\n<style>\n@media only screen and (min-width: 1px) {\n  .ns_datapic_stat--xmastravelroads-birmingham .ns_outer_wrapper {\n    background-image: none; \n  }\n  .ns_datapic_stat--xmastravelroads-birmingham .ns_outer_wrapper .ns_inner_wrapper {\n    max-width: 100%;\n    padding: 0; \n  }\n}\n@media only screen and (min-width: 480px) {\n  .ns_datapic_stat--xmastravelroads-birmingham .ns_outer_wrapper .ns_inner_wrapper {\n    max-width: 45%;\n    padding: 0.5em;\n  }\n  .ns_datapic_stat--xmastravelroads-birmingham .ns_outer_wrapper {\n        background-image: url(http://c.files.bbci.co.uk/F861/production/_87158536_gettyimages-107759853.jpg);\n  }\n}\n.ie8 .ns_datapic_stat--xmastravelroads-birmingham .ns_outer_wrapper .ns_inner_wrapper {\n    max-width: 45%;\n    padding: 0.5em;\n  }\n.ie8 .ns_datapic_stat--xmastravelroads-birmingham .ns_outer_wrapper {\n        background-image: url(http://c.files.bbci.co.uk/F861/production/_87158536_gettyimages-107759853.jpg);\n  }\n\n</style>\n<div id=\"ns_datapic_xmastravelroads-birmingham\" class=\"idt__news ns_datapic_stat ns_datapic_stat--xmastravelroads-birmingham newsspec_infographic_template\">\n    <div class=\"ns_outer_wrapper ns_outer_wrapper__align-bottom\">\n        <div class=\"ns_inner_wrapper\">\n           \n                          <div class=\"ns_header_wrapper\">\n                <h2 data-test-id=\"vj_main_header\" class=\"ns_title\">\n                  Driving home for Christmas                </h2>\n              \n                              </div>\n\n            \n                        \n              <div class=\"ns_header\">\n                                    <div class=\"ns_super_impact ns_header_left\">\n                      <p class=\"ns_super_impact__fig\">14 million</p>\n                      <p>cars will travel at least 20 miles on the last Friday before Christmas</p>\n                  </div>\n                                </div>\n            \n                        \n            <ul class=\"ns_impact-figures  ns_separator \" >\n                                <li class=\"ns_impact\">\n                                          <p><span class=\"ns_impact__fig\">400</span> miles of roadworks lifted by 23 December, but 43 sets stay in place </p>\n                                    </li>\n                                <li class=\"ns_impact\">\n                                          <p><span class=\"ns_impact__fig\">17.5</span> miles of work will not be lifted on the M3 near Farnborough </p>\n                                    </li>\n                                <li class=\"ns_impact\">\n                                          <p><span class=\"ns_impact__fig\">50mph</span> speed limits will be in force on the M1 near Luton and Leicester and on the M25 near Aveley </p>\n                                    </li>\n                                <li class=\"ns_impact\">\n                                          <p><span class=\"ns_impact__fig\">5</span> miles of work on the M6 near Lancaster will also not be lifted </p>\n                                    </li>\n                            </ul>\n            \n            <div class=\"ns_footer ns_small-text\">Source: AA&#x2F;Highways England</div>\n        \n        </div>\n                    <div class=\"ns_outer_wrapper_img_src\">Getty Images</div>\n            </div>\n</div>\n\n\n<script type=\"text/javascript\">\n</script>\n\n    <script type=\"text/javascript\">\nrequire([\"jquery-1\", \"istats-1\"], function ($, istats) {\n  $(function () {\n    \n    var monitorScrolling = function (ev) {\n      if (isElementInViewport(document.getElementById('ns_datapic_xmastravelroads-birmingham'))) {\n        istats.log(\n          \"idt-content\",\n          \"datapic-entered-view\",\n          {\n            \"project\" : \"xmastravelroads-birmingham\",\n            \"page\"    : window.location.href\n          });\n        window.clearInterval(intervalID);\n      }\n    };\n    \n    var isElementInViewport = function (el) {\n      var rect = el.getBoundingClientRect();\n\n      return (\n        rect.top >= 0 &&\n        rect.left >= 0 &&\n        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&\n        rect.right <= (window.innerWidth || document.documentElement.clientWidth)\n        );\n    };\n\n    var intervalID = window.setInterval(monitorScrolling, 500);\n    monitorScrolling();\n    \n  });\n});\n</script>\n"
+          }
+        },
+        {
+          "type": "include",
+          "model": {
+            "type": "vj",
+            "html": "<svg viewBox=\"0 0 1000 1000\"><image href=\"https://c.files.bbci.co.uk/F861/production/_87158536_gettyimages-107759853.jpg\" height=\"1000\" width=\"1000\" preserveAspectRatio=\"xMidYMid slice\"></image><a href=\"https://i.gifer.com/origin/5f/5fa2b63c40c70da800bf9e7e5195645e_w200.gif\"><rect x=\"445\" y=\"627\" width=\"57\" height=\"37\" style=\"fill:transparent; stroke:yellow; stroke-width:5pt;\"></rect></a><text x=\"445\" y=\"690\" width=\"57\" height=\"37\" style=\"fill:white; font-family: Helmet,Freesans,Helvetica,Arial,sans-serif; font-size: 1.5rem; font-weight:400\">^ This is an annotation.</text></svg>"
+          }
+        },
+        {
+          "type": "image",
+          "model": {
+            "blocks": [
+              {
+                "type": "caption",
+                "model": {
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "model": {
+                        "blocks": [
+                          {
+                            "type": "paragraph",
+                            "model": {
+                              "text": "Cette image test, sous copyright BBC, montre une carte de la France. L'image est dans les trois premiers blocs et porte cette légende.",
+                              "blocks": [
+                                {
+                                  "type": "fragment",
+                                  "model": {
+                                    "text": "Cette image test, sous copyright BBC, montre une carte de la France. L'image est dans les trois premiers blocs et porte cette légende.",
+                                    "attributes": []
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "altText",
+                "model": {
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "model": {
+                        "blocks": [
+                          {
+                            "type": "paragraph",
+                            "model": {
+                              "text": "Carte de France montrant Paris et Cognac",
+                              "blocks": [
+                                {
+                                  "type": "fragment",
+                                  "model": {
+                                    "text": "Carte de France montrant Paris et Cognac",
+                                    "attributes": []
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "rawImage",
+                "model": {
+                  "width": 624,
+                  "height": 351,
+                  "locator": "2571/test/a4699550-e135-11e9-b23c-f1ac9644bb55.jpg",
+                  "originCode": "cpsdevpb",
+                  "copyrightHolder": "BBC"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "model": {
+            "blocks": [
+              {
+                "type": "paragraph",
+                "model": {
+                  "text": "Ceci est un bloc de texte contenant un lien URL vers la page d'accueil BBC Weather.",
+                  "blocks": [
+                    {
+                      "type": "fragment",
+                      "model": {
+                        "text": "Ceci est un bloc de texte contenant un lien URL vers ",
+                        "attributes": []
+                      }
+                    },
+                    {
+                      "type": "urlLink",
+                      "model": {
+                        "text": "la page d'accueil BBC Weather",
+                        "blocks": [
+                          {
+                            "type": "fragment",
+                            "model": {
+                              "text": "la page d'accueil BBC Weather",
+                              "attributes": []
+                            }
+                          }
+                        ],
+                        "locator": "https://www.bbc.co.uk/weather",
+                        "isExternal": false
+                      }
+                    },
+                    {
+                      "type": "fragment",
+                      "model": {
+                        "text": ".",
+                        "attributes": []
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "video",
+          "model": {
+            "locator": "urn:bbc:pips:pid:p01k6msm",
+            "blocks": [
+              {
+                "type": "caption",
+                "model": {
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "model": {
+                        "blocks": [
+                          {
+                            "type": "paragraph",
+                            "model": {
+                              "text": "Ceci est un bloc vidéo contenant une vidéo sur les fourmis",
+                              "blocks": [
+                                {
+                                  "type": "fragment",
+                                  "model": {
+                                    "text": "Ceci est un bloc vidéo contenant une vidéo sur les fourmis",
+                                    "attributes": []
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "aresMedia",
+                "model": {
+                  "blocks": [
+                    {
+                      "blockId": "urn:bbc:ares::clip:p01k6msm",
+                      "type": "aresMediaMetadata",
+                      "model": {
+                        "id": "p01k6msm",
+                        "subType": "clip",
+                        "format": "audio_video",
+                        "title": "Five things ants can teach us about management",
+                        "synopses": {
+                          "short": "They may be tiny, but us humans could learn a thing or two from ants."
+                        },
+                        "imageUrl": "ichef.test.bbci.co.uk/images/ic/$recipe/p01k6mtv.jpg",
+                        "imageCopyright": "BBC",
+                        "embedding": true,
+                        "advertising": true,
+                        "versions": [
+                          {
+                            "versionId": "p01k6msp",
+                            "types": ["Original"],
+                            "duration": 191,
+                            "durationISO8601": "PT3M11S",
+                            "warnings": {
+                              "short": "Contains strong language and adult humour.",
+                              "long": "Contains strong language and adult humour."
+                            },
+                            "availableTerritories": {
+                              "uk": true,
+                              "nonUk": true
+                            },
+                            "availableFrom": 1540218932000
+                          }
+                        ],
+                        "syndication": {
+                          "destinations": []
+                        }
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "model": {
+                        "blocks": [
+                          {
+                            "type": "rawImage",
+                            "model": {
+                              "width": 1920,
+                              "height": 1080,
+                              "locator": "ichef.test.bbci.co.uk/images/ic/$widthxn/p01k6mtv.jpg",
+                              "originCode": "mpv",
+                              "copyrightHolder": "BBC"
+                            }
+                          },
+                          {
+                            "type": "altText",
+                            "model": {
+                              "blocks": [
+                                {
+                                  "type": "text",
+                                  "model": {
+                                    "blocks": [
+                                      {
+                                        "type": "paragraph",
+                                        "model": {
+                                          "text": "Ants",
+                                          "blocks": [
+                                            {
+                                              "type": "fragment",
+                                              "model": {
+                                                "text": "Ants",
+                                                "attributes": []
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "subheadline",
+          "model": {
+            "blocks": [
+              {
+                "type": "text",
+                "model": {
+                  "blocks": [
+                    {
+                      "type": "paragraph",
+                      "model": {
+                        "text": "Ceci est un bloc de sous-titre",
+                        "blocks": [
+                          {
+                            "type": "fragment",
+                            "model": {
+                              "text": "Ceci est un bloc de sous-titre",
+                              "attributes": []
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "image",
+          "model": {
+            "blocks": [
+              {
+                "type": "altText",
+                "model": {
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "model": {
+                        "blocks": [
+                          {
+                            "type": "paragraph",
+                            "model": {
+                              "text": "Footballeurs après un match",
+                              "blocks": [
+                                {
+                                  "type": "fragment",
+                                  "model": {
+                                    "text": "Footballeurs après un match",
+                                    "attributes": []
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "rawImage",
+                "model": {
+                  "width": 2048,
+                  "height": 1152,
+                  "locator": "fef7/test/d4cc0ed0-e135-11e9-b23c-f1ac9644bb55.jpg",
+                  "originCode": "cpsdevpb",
+                  "copyrightHolder": "Getty Images"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "model": {
+            "blocks": [
+              {
+                "type": "paragraph",
+                "model": {
+                  "text": "Cet article de test a été créé afin que nous puissions exécuter des tests automatisés de bout en bout sur notre site Web.",
+                  "blocks": [
+                    {
+                      "type": "fragment",
+                      "model": {
+                        "text": "Cet article de test a été créé afin que nous puissions exécuter des tests automatisés de bout en bout sur notre site Web.",
+                        "attributes": []
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "links",
+          "model": {
+            "blocks": [
+              {
+                "type": "title",
+                "model": {
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "model": {
+                        "blocks": [
+                          {
+                            "type": "paragraph",
+                            "model": {
+                              "text": "This is my title",
+                              "blocks": [
+                                {
+                                  "type": "fragment",
+                                  "model": {
+                                    "text": "This is my title",
+                                    "attributes": []
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "link",
+                "model": {
+                  "locator": "urn:bbc:content:url-promo:https%3A%2F%2Fwww.bbc.com",
+                  "blocks": [
+                    {
+                      "type": "image",
+                      "model": {
+                        "blocks": [
+                          {
+                            "type": "altText",
+                            "model": {
+                              "blocks": [
+                                {
+                                  "type": "text",
+                                  "model": {
+                                    "blocks": [
+                                      {
+                                        "type": "paragraph",
+                                        "model": {
+                                          "text": "Dog",
+                                          "blocks": [
+                                            {
+                                              "type": "fragment",
+                                              "model": {
+                                                "text": "Dog",
+                                                "attributes": []
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "rawImage",
+                            "model": {
+                              "width": 1200,
+                              "height": 602,
+                              "locator": "b498/test/67b83de0-7284-11ec-9534-9f1d59fb8b32.jpg",
+                              "imageType": "background",
+                              "originCode": "cpsdevpb",
+                              "copyrightHolder": "Getty Images"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "model": {
+                        "blocks": [
+                          {
+                            "type": "paragraph",
+                            "model": {
+                              "text": "This is a dog",
+                              "blocks": [
+                                {
+                                  "type": "urlLink",
+                                  "model": {
+                                    "text": "This is a dog",
+                                    "locator": "https://www.bbc.com",
+                                    "blocks": [
+                                      {
+                                        "type": "fragment",
+                                        "model": {
+                                          "text": "This is a dog",
+                                          "attributes": []
+                                        }
+                                      }
+                                    ],
+                                    "isExternal": false
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "promo": {
+    "headlines": {
+      "seoHeadline": "CAN 2019 : Le Nigéria file en demi-finales au détriment de l'Afrique du Sud"
+    },
+    "locators": {
+      "optimoUrn": "urn:bbc:optimo:asset:cz216x22106o"
+    },
+    "summary": {
+      "blocks": [
+        {
+          "model": {
+            "blocks": [
+              {
+                "model": {
+                  "blocks": [
+                    {
+                      "model": {
+                        "attributes": [],
+                        "text": ""
+                      },
+                      "type": "fragment"
+                    }
+                  ],
+                  "text": ""
+                },
+                "type": "paragraph"
+              }
+            ]
+          },
+          "type": "text"
+        }
+      ]
+    },
+    "timestamp": 1569595708548,
+    "id": "urn:bbc:ares::article:cz216x22106o",
+    "type": "cps"
+  },
+  "relatedContent": {
+    "site": {
+      "subType": "site",
+      "name": "Afrique",
+      "uri": "/afrique",
+      "type": "simple"
+    },
+    "groups": []
+  }
+}

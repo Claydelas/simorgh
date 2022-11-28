@@ -34,6 +34,7 @@ import visuallyHiddenHeadline from '#containers/VisuallyHiddenHeadline';
 import gist from '#containers/Gist';
 import text from '#containers/Text';
 import Image from '#containers/Image';
+import include from '#containers/Include';
 import Blocks from '#containers/Blocks';
 import Timestamp from '#containers/ArticleTimestamp';
 import ATIAnalytics from '#containers/ATIAnalytics';
@@ -174,6 +175,7 @@ const ArticlePage = ({ pageData, mostReadEndpointOverride }) => {
     links: props => <ScrollablePromo {...props} />,
     mpu: props =>
       isAdsEnabled ? <MpuContainer {...props} slotType="mpu" /> : null,
+    include,
   };
 
   const visuallyHiddenBlock = {
